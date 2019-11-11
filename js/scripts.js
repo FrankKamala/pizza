@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // prices
   let small=500, medium=750, large= 950 ;
-let btn=document.querySelector('#btn');
+let btn=document.querySelector('#order');
 btn.addEventListener('click',function(){
 
 
@@ -12,7 +12,16 @@ size=document.querySelector('#size').value;
 quantity=document.querySelector('#quantity').value;
 
 const order= new Pizza(flavor,toppings,size,quantity,price);
-console.log(order);
+$("#order").click(
+  function(){
+    $("#payment").text(order.flavor);
+    $("#payment1").text(order.toppings);
+    $("#payment2").text(order.size);
+    $("#payment3").text(order.quantity);
+  }
+);
+
+
 
 });
 

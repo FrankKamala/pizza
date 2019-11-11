@@ -15,69 +15,83 @@
 
 <body>
   <div class="container">
+    <div class="row">
+
+    <div class="col-md-12">
+      <h1>Place Orders below</h1>
+      <br>
+      <h1 class="type">Pick Flavour</h1>
+      <!--Choose  Flavours-->
+    </div>
+      <div class="col-md-6">
+        <select class="form-control col-md-6 one" id="flavor">
+          <option>Veg Tikka</option>
+          <option>Chicken Tikka</option>
+          <option>Peri Peri Chicken</option>
+          <option>BBQ Steak</option>
+          <option>Boerewors</option>
+          <option>Hawaiian</option>
+          <option>Chicken and Mushroom</option>
+          <option>Regina Pizza</option>
+        </select>
+
+        <!--Option for Toppingss-->
+        <h1 class="type">Extra Toppings</h1>
+        <select class="form-control  col-md-6 two" id="toppings">
+          <option>None</option>
+          <option>Extra Tomato</option>
+          <option>Extra Pinapple</option>
+          <option>SweetCorn</option>
+          <option>Macon</option>
+          <option>Chicken</option>
+
+        </select>
 
 
-    <h1>Place Orders below</h1>
-    <br>
-    <h1 class="type">Pick Flavour</h1>
-    <!--Choose  Flavours-->
-    <select class="form-control col-md-6" id="flavor">
-      <option>Veg Tikka</option>
-      <option>Chicken Tikka</option>
-      <option>Peri Peri Chicken</option>
-      <option>BBQ Steak</option>
-      <option>Boerewors</option>
-      <option>Hawaiian</option>
-      <option>Chicken and Mushroom</option>
-      <option>Regina Pizza</option>
-    </select>
+    <!--Choose  box Size-->
+        <h1 class="type">Pick Size</h1>
+        <select class="form-control col-md-6 three" id="size">
+          <option>Large</option>
+          <option>Medium</option>
+          <option>Small</option>
 
-    <!--Option for Toppingss-->
-    <h1 class="type">Extra Toppings</h1>
-    <select class="form-control  col-md-6" id="toppings">
-      <option>None</option>
-      <option>Extra Tomato</option>
-      <option>Extra Pinapple</option>
-      <option>SweetCorn</option>
-      <option>Macon</option>
-      <option>Chicken</option>
+        </select>
+        <!--Choose  box numbers-->
+        <h2>How many boxes?</h2>
+        <select class="form-control  col-md-6 four" id="quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+        <div class="form-group col-md-9">
+            <button type="submit" class="btn add" id="order">Place Order</button>
+         </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Your Order:</h2>
+                <ul id="payment"> </ul>
+                <ul id="payment1"> </ul>
+                <ul id="payment2"> </ul>
+                <ul id="payment3"> </ul>
+      </div>
 
-    </select>
 
-
-<!--Choose  box Size-->
-    <h1 class="type">Pick Size</h1>
-    <select class="form-control col-md-6" id="size">
-      <option>Large</option>
-      <option>Medium</option>
-      <option>Small</option>
-
-    </select>
-    <!--Choose  box numbers-->
-    <h2>How many boxes?</h2>
-    <select class="form-control  col-md-6" id="quantity">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-      <option>6</option>
-      <option>7</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-    </select>
 
   </div>
+  </div>
   <br>
-  <div class="form-group col-md-9">
-      <button type="submit" class="btn add" id="btn">Place Order</button>
-   </div>
-   <br>
-   <h2>Your Order:</h2>
-           <ul id="contacts">
 
-           </ul>
+   <br>
+
+
+
 </body>
 
 </html>
