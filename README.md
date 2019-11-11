@@ -9,6 +9,8 @@ This is a Pizza ordering application for users to make their picks in sizes and 
 Francis Kamala Albert.
 
 ## Screenshots
+Order page
+![image](https://github.com/FrankKamala/pizza/blob/master/images/pizza.png)
 
 
 ## Setup
