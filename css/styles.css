@@ -1,10 +1,25 @@
+body{
+  background: url(bg/back1.jpg) no-repeat;
+
+}
 span {
   display: none;
 }
 .btn{
   background: #6f42c1;
 }
+h1{
+  color:
+}
 h2{
   text-decoration: underline;
-  font-size:20px;
+  font-size:25px;
+  color: #ffef73;
+}
+.txt{
+  color:#ffef73;
+}
+.gr{
+  color:#02e333;
+  background-color: #e6f0e8;
 }
