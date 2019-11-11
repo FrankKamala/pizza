@@ -47,6 +47,9 @@ $("#pizza").append(newRow);
 
   }
 );
+$("#deliver").click(function(){
+  prompt("Enter location for delivery");
+});
 
 
 
