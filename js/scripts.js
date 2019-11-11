@@ -27,10 +27,12 @@ function Pizza(flavor ,toppings,size, quantity) {
   this.quantity = quantity;
 
  }
+ Pizza.prototype.fullOrder= function(){
+   return this.flavor + "," +this.toppings + "," + this.size + "," +this.quantity;
+ }
  function price(small,medium,large) {
 
    this.small = small;
    this.toppings = medium;
    this.size =large;
-
   }
