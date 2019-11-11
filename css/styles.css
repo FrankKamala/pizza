@@ -1,5 +1,6 @@
 body{
   background: url(bg/back1.jpg) no-repeat;
+  font-family: 'Yeon Sung', cursive;
 
 }
 span {
@@ -7,10 +8,13 @@ span {
 }
 .btn{
   background: #6f42c1;
+  color: #ffffff;
 }
-h1{
-  color:
+th{
+  font-size: 25px;
+  color: 	#ead61c;
 }
+
 h2{
   text-decoration: underline;
   font-size:25px;
